@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css  ">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>home</li>
+            <li>contact</li>
+            <li>projects</li>
+            <li>support</li>
+        </ul>
+    </header>
+    <section class="container">
+    <h1>Login-Form</h1>
+    <form action="">
+        <div class="subcontainer">
+            <div class="div1">
+                <label for="">Name</label><br>
+                <input type="text" name="" id="namevalue" placeholder="EnterYourName" required max="10"
+                    minlength="3">
+                <span id="nameerror" class="error"></span>
+            </div>
+            <div class="div2">
+                <label for="">Contact</label><br>
+                <input type="tel" maxlength="10" minlength="10" required placeholder="EnterYourNumber" id="numbervalue">
+                <span id="numbererror" class="error"></span>
+            </div>
+            <div class="div3">
+                <label for="">gmail</label><br>
+                <input type="email" required placeholder="Enter Your E-mail" id="emailvalue">
+                <span id="emailerror" class="error"></span>
+            </div>
+            <div class="div4">
+                <label for="">Gender</label><br>
+                <select name="" id="gendervalue" required>
+                    <option value="">Gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Others</option>
+                </select>
+                <span class="error" id="gendererror"></span>
+            </div>
+            <div class="div5">
+                <label for="">Id</label><br>
+                <input type="tel" required placeholder="Enter your UniqID" minlength="5" maxlength="15" id="idvalue">
+                <span class="error" id="iderror"></span>
+            </div>
+            <div class="div6">
+                <button type="submit" id="button">Submit</button>
+            </div>
+
+            <script src="script.js"></script>
+    </form>
+</section>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./images/wp4221533.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content:right;
+    word-spacing: 60px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+li {
+    
+    list-style: none;
+    display: inline;
+    font-size:25px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s ease;
+}
+li:hover{
+    color: gray;
+    transform: scale(2);
+}
+.container{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    display: inline;
+    padding: 10px;
+
+}
+h1{
+    font-size: 35px;
+    padding: 10px;
+    color: black;
+    background-color: #f0f8ff70;
+    text-align: center;
+
+}
+form{
+    padding: 25px;
+    color: black;
+    background-color: #f0f8ff70;
+    width: 400px;
+    height: 630px;
+}
+input,select,button{
+    width: 350px;
+    height: 35px;
+    background-color:   #f0f8ff44;
+    border: 2px solid ;
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
+}
+button{
+    position: relative;
+    color: blue;
+    font-size: 20px;
+    background-color:#f0f8ff70 ;
+    top: 50px;
+    
+}
+input::placeholder{
+    color: black;
+}
+.div1,
+.div2,
+.div3,
+.div4,
+.div5{
+    position: relative;
+    margin-bottom: 20px;
+}
+ .error{
+    color: red;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+}    
+i{
+    position: absolute;
+    color: green;
+    top: 3px;
+    right: 5px;
+}
+
